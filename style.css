@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(34,193,195);
+    background: linear-gradient(54deg, rgba(34,193,195,1) 0%, rgba(53,253,45,1) 82%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aqua;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.card{
+    width: 450px;
+    background-color:yellow;
+    color: black;
+    border-radius:20px ;
+    overflow: hidden;
+    margin: 50px auto;
+
+}
+
+.Title{
+    color: var(--dark-bule);
+    font-weight: 900;
+    font-size: 32px;
+    text-align: center;
+}
+
+.hero-image{
+    width: 100%;
+}
+
+.container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.container > *{
+    margin:13px 0;
+}
+
+
+.Oder-description{
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.plan-container{
+    font-size: 17px;
+    background-color: azure;
+    padding: 25px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan-description strong{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.plan-container p{
+    color: red;
+    font-weight: bolder;
+
+}
+
+.plan-container a{
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.plan-container a:hover{
+    opacity: 0.8;
+    text-decoration: none;
+    background-color: yellow;
+    color: black;
+    
+}
+
+.plan-description{
+    line-height: 20px;
+    margin-right: 10px;
+}
+
+.agbtn{
+    font-size: 22px;
+    font-weight: bold;
+    color: red;
+}
+
+.agbtn:hover{
+    border: 3px dashed black;
+    text-decoration: none;
+    transition: 3s ease-in-out;
+    color: black;
+}
+
+button{
+    width: 100%;
+    border: none;
+    font-weight: 700;
+    font-size: 0.9rem;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 20px 30px -8px rgb(0, 0, 0);
+}
+
+.Proceed-Btn{
+    background-color: black;
+    padding: 1rem 0;
+    color: yellow;
+    width: 100%;
+    box-shadow: 0 20px 30px -8px rgb(0, 0, 0);
+    border: none;
+    font-weight: 700;
+    font-size: 0.9rem;
+
+}
+.Proceed-Btn a:hover{
+    border: 3px solid red;
+    transition: 3s ease-in;
+} 
+
+.cancle-btn{
+    background-color: rgb(255, 255, 255);
+    padding: 1rem 0;
+    color: black;
+    border: none;
+    font-weight: 900;
+    font-size: 1rem;
+    margin-top: 22px;
+    width: 100%;
+    box-shadow: 0 20px 30px -8px rgb(32, 21, 21);
+
+}
+
